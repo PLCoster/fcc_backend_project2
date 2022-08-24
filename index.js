@@ -29,10 +29,11 @@ app.get('/', (req, res) => {
 
 // Return request header info on API call
 app.get('/api/whoami', (req, res) => {
+  req.headers;
   return res.json({
     ipaddress: req.ip,
-    language: req.language,
-    software: req.software,
+    language: req.headers['accept-language'],
+    software: req.headers['user-agent'],
   });
 });
 
