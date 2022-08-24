@@ -1,7 +1,7 @@
 {
-  "name": "request-header-parser-microservice",
+  "name": "fcc_backend_project2",
   "version": "0.0.2",
-  "description": "API project for freeCodeCamp",
+  "description": "FCC Backend Project 2: Request Header Parser Microservice",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
